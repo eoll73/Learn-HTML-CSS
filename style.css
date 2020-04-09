@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #121212;
+
+    background: url("img/bg.png");
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.page {
+    width: 1000px;
+    margin: 20px auto;
+
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+/* Header */
+
+.header {
+    padding: 20px;
+
+    background-color: #121212;
+}
+
+.header-title {
+    margin: 0;
+
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-subtitle {
+    margin: 0;
+
+    font-size: 16px;
+    color: rgb(82, 207, 245);
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Nav */
+
+.nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-link {
+    padding: 8px 12px;
+
+    color: #39460d;
+    text-decoration: none;
+
+    transition: background-color 0.5s linear;
+}
+
+.nav-link:hover {
+    background-color: #eee;
+}
+
+/* Content */
+
+.intro-img {
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgb(218, 203, 1);
+}
+
+.content {
+    width: 700px;
+    padding: 0 20px;
+}
+
+.content-title {
+    margin: 0 0 15px;
+
+    font-size: 24px;
+    color: #4fc259;
+}
+
+.content-text {
+   margin-bottom: 40px; 
+}
+
+.read-more {
+    color: rgb(37, 21, 255);
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+/* Sidebar */
+.sidebar {
+    width: 300px;
+    padding: 15px;
+    background-color: #eee;
+}
+
+.sidebar-title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #b33232;
+}
+
+.sidebar-img {
+    background: linear-gradient(to bottom , #eff30f, #13ecfb);
+}
+
+.sidebar-text {
+    font-size: 14px;
+}
+
+
+/* Article */
+
+.article {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(46, 165, 76);
+}
+
+.article-title {
+    margin: 0 0 5px;
+
+    font-size: 18px;
+    color: #b33232;
+}
+
+.article-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.article-title a:hover {
+    text-decoration: underline;
+}
+
+.article-data {
+    display: block;
+    font-size: 18px;
+    color: rgb(77, 44, 197); 
+}
+
+/* Footer */
+
+.footer {
+    padding: 20px;
+
+    background-color: #121212;
+    
+    color: #fff;
+    text-align: center;
+}
+
+/* Forms */
+
+.form {
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(248, 247, 172);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-input {
+    display: block;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    border: 2px solid #b33232;
+    font-size: 15px;
+}
+
+.form-input:focus {
+    outline: none;
+    background-color: rgb(139, 247, 247);
+}
+
+.form-textarea {
+    width: 270px;
+    height: 100px;
+    padding: 5px;
+    border: 3px solid #4fc259;
+    outline: 3px solid red;
+    outline-offset: 5px;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.form-textarea:focus {
+    outline: none;
+    background-color: rgb(139, 247, 247);
+}
+
+
+/* LInk */
+
+.link {
+    color: #0ee0fb;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: rgb(173, 2, 173);
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: rgb(248, 7, 47);
+    border: 1px solid rgb(118, 104, 246);
+    color: blanchedalmond;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: rgb(14, 245, 103);
+        color: rgb(248, 7, 47);
+        cursor: pointer;
+    }
+
+.btn:active {
+    background-color: rgb(86, 0, 199);    
+}
+
+
+.form-fieldset {
+    margin-bottom: 20px;
+    padding: 20px;
+
+    border: 1px solid #ccc;
+
+    /* border-top-width: 2px;
+    border-left-width: 4px;
+    border-bottom-width: 3px;
+    border-right-width: 5px;
+
+    border-top-style: dashed;
+    border-right-style: dotted;
+    border-bottom-style: double;
+    border-left-style: groove;
+
+    border-left-color: rgb(24, 206, 0);
+    border-top-color: rgb(25, 0, 255);
+    border-right-color: rgb(228, 0, 0);
+    border-bottom-color: rgb(167, 170, 0); */
+}
+
+.form-title {
+    margin: 0 0 15px;
+}
